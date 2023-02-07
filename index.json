@@ -102,6 +102,11 @@
       "rainbow/version"
     ]
   },
+  "json": {
+    "requires": [
+      "json"
+    ]
+  },
   "sidekiq": {
     "dependencies": [
       "rails"
