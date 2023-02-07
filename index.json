@@ -1,0 +1,132 @@
+{
+  "aasm": {
+  },
+  "actionmailer": {
+    "requires": [
+      "action_mailer"
+    ]
+  },
+  "actionpack": {
+    "requires": [
+      "action_controller",
+      "action_dispatch/testing/integration"
+    ]
+  },
+  "actionview": {
+    "requires": [
+      "action_view"
+    ]
+  },
+  "active_flag": {
+  },
+  "activerecord": {
+    "requires": [
+      "active_record"
+    ]
+  },
+  "activesupport": {
+    "requires": [
+      "active_support",
+      "active_support/core_ext/array",
+      "active_support/test_case"
+    ]
+  },
+  "aws-sdk-acm": {
+    "dependencies": [
+      "nokogiri"
+    ]
+  },
+  "bencode": {
+  },
+  "colorize": {
+  },
+  "configs": {
+  },
+  "delayed_job": {
+  },
+  "elasticsearch-dsl": {
+    "requires": [
+      "elasticsearch/dsl"
+    ]
+  },
+  "faraday": {
+  },
+  "globalid": {
+    "dependencies": [
+      "activerecord"
+    ],
+    "requires": [
+      "active_record",
+      "global_id/identification"
+    ]
+  },
+  "graphql": {
+  },
+  "kredis": {
+    "dependencies": [
+      "activemodel",
+      "kredis"
+    ],
+    "requires": [
+      "active_model",
+      "kredis"
+    ]
+  },
+  "lhm": {
+  },
+  "lhm-shopify": {
+  },
+  "mocha": {
+    "requires": [
+      "mocha/api"
+    ]
+  },
+  "parse-cron": {
+  },
+  "pundit": {
+  },
+  "railties": {
+    "requires": [
+      "rake",
+      "rake/tasklib",
+      "rails",
+      "rails/railtie",
+      "rails/generators",
+      "rails/generators/model_helpers",
+      "rails/generators/generated_attribute"
+    ]
+  },
+  "rainbow": {
+    "requires": [
+      "rainbow",
+      "rainbow/version"
+    ]
+  },
+  "sidekiq": {
+    "dependencies": [
+      "rails"
+    ],
+    "requires": [
+      "rake/tasklib",
+      "rails",
+      "sidekiq/cli",
+      "sidekiq/web"
+    ]
+  },
+  "sidekiq-scheduler": {
+  },
+  "state_machines": {
+  },
+  "stripe": {
+  },
+  "webmock": {
+    "dependencies": [
+      "minitest"
+    ],
+    "requires": [
+      "minitest/test",
+      "webmock/api",
+      "webmock/minitest"
+    ]
+  }
+}
